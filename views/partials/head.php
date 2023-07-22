@@ -5,6 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>PHP Simple Boiler</title>
    <link href="../../dist/output.css" rel="stylesheet">
+   <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 <body>
    <main class="max-w-screen-xl mx-auto">

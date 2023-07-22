@@ -1,20 +1,20 @@
 # PHP Simple Boiler
 
-Start dev server
+Start the dev server
 ```
-php -S localhost:8080
+composer run-script dev
 ```
 
-Run Tailwind watch on files
+In another window start Tailwind watch
 ```
-./tailwindcss -i ./dist/input.css -o ./dist/output.css --watch
+composer run-script watch
 ```
 
 Minify for production
 ```
-./tailwindcss -i ./dist/input.css -o ./dist/output.css --minify
+composer run-script prod
 ```
 
 Roadmap:
-- [] Router
 - [] Landing Page
+- [] Template engine

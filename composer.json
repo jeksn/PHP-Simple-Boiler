@@ -1,0 +1,13 @@
+{
+   "scripts": {
+      "dev" : [
+          "php -S localhost:8080"
+      ],
+      "watch" : [
+          "./tailwindcss -i ./dist/input.css -o ./dist/output.css --watch"
+      ],
+      "prod" : [
+          "./tailwindcss -i ./dist/input.css -o ./dist/output.css --minify"
+      ]
+   }
+}
