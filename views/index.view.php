@@ -14,7 +14,9 @@ require('partials/nav.php');
             <span class="block text-4xl xl:inline sm:text-5xl f md:text-4xl lg:text-5xl xl:text-6xl"><?= $page_heading; ?></span>
             <!-- <span class="block text-3xl text-teal-500 xl:inline sm:text-4xl md:text-3xl lg:text-4xl xl:text-5xl">It's a thing!</span> -->
           </h1>
-          <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">It's never been easier to build beautiful websites that convey your message and tell your story.</p>
+          <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">
+            Small boilerplate for simple PHP websites.
+          </p>
           <div class="relative flex flex-col sm:flex-row sm:space-x-4">
             <a href="/about" class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-teal-500 rounded-md sm:mb-0 hover:bg-teal-700 sm:w-auto" data-primary="indigo-600" data-rounded="rounded-md">
               Try It Free
