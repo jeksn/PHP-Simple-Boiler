@@ -1,14 +1,14 @@
-<section class="relative w-full px-8 text-gray-700 bg-white">
+<section class="relative w-full px-8 text-gray-700 dark:text-white">
     <div class="flex flex-row items-center justify-between py-5 mx-auto max-w-7xl">
-        <a href="/" class="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-black select-none">psb.</a>
+        <a href="/" class="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-black select-none dark:text-white">psb.</a>
        
         <!-- Desktop Nav -->
        
         <nav class="top-0 left-0 z-0 items-center justify-center hidden w-full h-full py-5 -ml-0 space-x-5 text-base md:flex md:-ml-5 md:py-0">
-            <a href="/" class="<?= urlIs('/') ? 'underline underline-offset-4' : '' ?> ease-in-out font-medium leading-6 text-gray-600 transition duration-150 hover:text-gray-900">
+            <a href="/" class="<?= urlIs('/') ? 'underline underline-offset-4' : '' ?> ease-in-out font-medium leading-6 text-gray-600 dark:text-white transition duration-150 hover:text-gray-900">
                 Home
             </a>
-            <a href="/about " class="<?= urlIs('/about') ? 'underline underline-offset-4 under' : '' ?> ease-in-out font-medium leading-6 text-gray-600 transition duration-150 hover:text-gray-900">
+            <a href="/about " class="<?= urlIs('/about') ? 'underline underline-offset-4 under' : '' ?> ease-in-out font-medium leading-6 text-gray-600 dark:text-white transition duration-150 hover:text-gray-900">
                 About
             </a>
         </nav>
