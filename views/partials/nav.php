@@ -31,7 +31,7 @@
                 </svg>
             </button>
         
-            <div x-show="open" class="absolute left-0 z-50 w-full pb-12 bg-white" x-transition>
+            <div x-show="open" class="absolute left-0 z-50 w-full pb-12 bg-white border-b border-neutral-200" x-transition>
                 <nav class="flex flex-col items-center justify-center w-full h-full gap-2 py-5 -ml-0 text-base md:py-0">
                     <a href="/" class="<?= urlIs('/') ? 'underline underline-offset-4' : '' ?> ease-in-out font-medium leading-6 text-gray-600 transition duration-150 hover:text-gray-900">
                         Home

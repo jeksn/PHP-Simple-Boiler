@@ -5,13 +5,13 @@ require('partials/nav.php');
 
 ?>
 
-<section class="flex items-center justify-center py-10 text-white bg-white sm:py-16 md:py-24 lg:py-32">
-    <div class="relative max-w-3xl px-10 text-center text-white auto lg:px-0">
+<section class="flex items-center justify-center py-10 sm:py-16 md:py-24 lg:py-32">
+    <div class="relative max-w-3xl px-10 text-center auto lg:px-0">
         <div class="flex flex-col w-full md:flex-row">
 
             <!-- Top Text -->
             <div class="flex justify-between">
-                <h1 class="relative flex flex-col text-6xl font-extrabold text-left text-black">
+                <h1 class="relative flex flex-col text-6xl font-extrabold text-left text-black dark:text-white">
                     <span class="text-teal-500"><?= $page_heading; ?></span>
                     <span>Page</span>
                 </h1>
@@ -22,7 +22,7 @@ require('partials/nav.php');
         <div class="my-4 border-b border-gray-300 lg:my-12"></div>
 
         <!-- Bottom Text -->
-        <p class="text-left text-gray-500 xl:text-xl">
+        <p class="text-left text-gray-500 dark:text-white xl:text-xl">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum minima aspernatur, ipsa optio iusto commodi tempore perspiciatis maxime vel odio porro fugiat ipsum, eveniet unde maiores praesentium culpa rerum voluptatem.
             <br>
             <br>
