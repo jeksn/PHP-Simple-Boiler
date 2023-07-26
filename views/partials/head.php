@@ -8,9 +8,7 @@
    <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 <body class="relative bg-white dark:bg-slate-800">
-   
-   <?php require('components/darkmodeButton.php'); ?>
-   
+      
    <main class="max-w-screen-xl mx-auto">
 
 

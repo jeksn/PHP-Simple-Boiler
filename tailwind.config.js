@@ -2,7 +2,8 @@
 module.exports = {
   content: [
     "./views/*.php",
-    "./views/partials/*.php"
+    "./views/partials/*.php",
+    "./components/*.php"
   ],
   theme: {
     extend: {},
