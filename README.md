@@ -14,7 +14,3 @@ Minify for production
 ```
 composer run-script prod
 ```
-
-Roadmap:
-- [] Landing Page
-- [] Template engine
